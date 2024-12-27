@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChenPingan</title>
+    <link rel="stylesheet" type="text/css" href="https://m.izihun.com/detail/8056.html">
+    <style>
+        @font-face {
+            font-family: "xingshu";
+            src: url("C:\\Users\\Lenovo\\Desktop\\初一\\办公\\py笔记\\字魂观潮手书(商用需授权).ttf");
+        }
+        @font-face {
+            font-family: "jianlai";
+            src: url("C:\\Users\\Lenovo\\Desktop\\初一\\办公\\py笔记\\字魂御剑手书(商用需授权).ttf");
+        }
+        body {
+            background-image: url("C:/Users/Lenovo/Desktop/初一/办公/图片/mmexport1730303181470.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .name{
+            font-size: 300px; 
+            font-family: 'xingshu';
+            text-align: center; 
+            line-height:25%; 
+            position: fixed;
+            top: 8%;
+            left: 34%;
+        }
+        .hidden-image{
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            scale: 0.5;
+        }
+        .name:hover+.hidden-image{  
+                display: block;
+         }
+        .one {
+            font-size: 150px; 
+            font-family: 'xingshu';
+            text-align: left; 
+            line-height:25%; 
+        }
+        .one:hover+.hidden-text1{
+            display: block;
+        }
+        .one{
+            position: fixed;
+            top: 10%;
+            left: 0%;    
+        }
+        .hidden-text1{
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            font-size: 50px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .hidden-text2{
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            font-size: 50px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .two {
+            font-size: 150px; 
+            font-family: 'xingshu';
+            text-align: left; 
+            line-height:25%; 
+        }
+        .two:hover+.hidden-text2{
+            display: block;
+        }
+        .two{
+            position: fixed;
+            top: 10%;
+            right: 0%;    
+        }
+        .hidden-text3{
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            font-size: 50px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .three {
+            font-size: 150px; 
+            font-family: 'xingshu';
+            text-align: left; 
+            line-height:25%; 
+        }
+        .three:hover+.hidden-text3{
+            display: block;
+        }
+        .three{
+            position: fixed;
+            top: 35%;
+            left: 45%;   
+        }
+        .part1{
+            font-size: 200px; 
+            font-family: 'xingshu';
+            text-align: center; 
+            line-height:25%; 
+            position: fixed;
+            bottom: 0%;
+            left: 0%;
+        }
+        .hidden-image2{
+            display: none;
+            position: absolute;
+            top: 200px;
+            right: 100;
+            z-index: 1;
+            scale: 0.5;
+        }
+        .part1:hover+.hidden-image2{  
+                display: block;
+         }
+        .jian {
+            position: fixed;
+            bottom:0%;
+            right: 0%;
+            line-height: 25%;
+            writing-mode: vertical-rl;
+            font-family: "jianlai";
+            font-size: 400px;
+            text-align: end;
+            padding: 10px;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="name">陈平安</p>
+        <img src="C:\Users\Lenovo\Desktop\初一\办公\图片\在 HTML 中铺满图片.png" alt="悬停显示1" class="hidden-image">
+    </div> 
+    <div class="feijian1">
+        <p class="one">笼中雀</p>
+        <p class="hidden-text1">这是一柄可化大小的袖珍飞剑，本命神通是能够创造出一片类似 “笼子” 的空间，将敌人困在其中，限制敌人的行动，无论面对多么强大的对手，都能极大地限制其活动范围，在群战中还可将部分敌人隔离开来，让陈平安逐个击破。</p>
+    </div>
+    <div class="feijian2">
+        <p class="two">井中月</p>
+        <p class="hidden-text2">外表小巧，同样可化大小，其本命神通为一种类似分身的分化飞剑，在金丹时能分化出十万把，玉璞境后是五十万把，若晋身至十四境，飞剑的数量将不可预测。此外，还可以此开发出第二种神通，以本命飞剑打造出一条光阴长河。</p>
+    </div>
+    <div class="feijian3">
+        <p class="three">青萍</p>
+        <p class="hidden-text3">此剑传自于陈清都，由陈清都的浮萍剑与所有战死的剑仙的信念交织，最后灌注在陈平安的槐木剑匣凝聚而成，承载着无数剑仙的梦想与信念。其威力巨大，刚出场时便以无敌之姿将逆流光阴长河的十四境纯粹剑修黄镇一剑斩杀。</p>
+    </div>
+    <div>
+        <p class="part1">问剑正阳山</p>
+        <img src="C:\Users\Lenovo\Desktop\初一\办公\图片\222.png" alt="悬停显示2" class="hidden-image2">
+    </div>
+    <div>
+        <p class="jian">剑来</p>
+    </div>
+</body>
+</html>
